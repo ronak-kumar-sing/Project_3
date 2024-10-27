@@ -90,6 +90,7 @@ nav{
   background-color: #f58829;
   border-radius: 10px;
 }
+
 .elme {
   flex-shrink: 0;
   width: 68vw;
@@ -112,14 +113,20 @@ nav{
 }
 
 @media (max-width: 600px){
+  #nav-part2{
+    gap: 30px;
+  }
   #nav-part2 h4{
     display: none;
   }
   #nav-part2 i {
     display: block;
     font-size: 18px;
-}
-#nav-sec {
+  }
+ #nav-part2 #css {
+    display: block;
+  }
+  #nav-sec {
   height: 70px;
   display: flex;
   margin: 0px 20px;
