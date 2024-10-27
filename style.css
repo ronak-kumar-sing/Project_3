@@ -1,0 +1,106 @@
+*{
+  padding : 0;
+  margin : 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.main{
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #333; */
+  padding: 10px 40px;
+}
+#nav-part2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+#nav-part2 h4{
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#nav-part2 h4 span{
+  font-weight: 400;
+  color: #ccc;
+  margin-left: 16px;
+}
+#nav-part1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gola{
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+
+#nav-sec{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+  gap: 110px;
+}
+
+#nav-sec h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+}
+#hero-section{
+  height: calc(100% - 150px);
+  /* width: 100%; */
+  /* background-color: #f5f5f5; */
+}
+#center-top{
+  height: 40%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto ;
+}
+#center-top::-webkit-scrollbar{
+  height: 7px;
+}
+#center-top::-webkit-scrollbar-thumb{
+  background-color: #f58829;
+  border-radius: 10px;
+}
+.elme {
+  flex-shrink: 0;
+  width: 68%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elme h1{
+  font-size: 150px;
+  font-weight: 400;
+}
+#img{
+  height: 60%;
+  width: 100%;
+
+}
+#img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
